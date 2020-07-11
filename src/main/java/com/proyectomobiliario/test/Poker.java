@@ -92,8 +92,7 @@ public class Poker {
     }
 
     public boolean validHand(int[] cards){
-        //TODO: cambiar validacion a x < 2
-        Predicate<Integer> limitValues = x -> x < 1 || x > 14;
+        Predicate<Integer> limitValues = x -> x < 2 || x > 14;
 
         //Valido tamaño de la lista o array
         if (cards == null || cards.length > 7 || cards.length < 5) {

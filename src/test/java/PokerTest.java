@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import com.proyectomobiliario.test.Poker;
 import java.util.Arrays;
@@ -15,7 +10,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Usuario
+ * @author Juan Camilo Wong
  */
 public class PokerTest {
     
